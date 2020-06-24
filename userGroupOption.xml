@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/tornado/userGroupOption.xsd">
+	<import>
+		<categories>
+			<category name="user.pricelist">
+				<parent>user</parent>
+			</category>
+			
+			<category name="admin.pricelist">
+				<parent>admin.application</parent>
+			</category>
+		</categories>
+		
+		<options>
+			<option name="admin.pricelist.canManage">
+				<categoryname>admin.pricelist</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<admindefaultvalue>1</admindefaultvalue>
+				<usersonly>1</usersonly>
+			</option>
+			
+			<option name="user.pricelist.canSee">
+				<categoryname>user.pricelist</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			
+			<option name="user.pricelist.canEdit">
+				<categoryname>user.pricelist</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<admindefaultvalue>1</admindefaultvalue>
+				<usersonly>1</usersonly>
+			</option>
+		</options>
+	</import>
+</data>

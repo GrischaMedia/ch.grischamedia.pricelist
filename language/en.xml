@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/tornado/language.xsd" languagecode="en" languagename="English" countrycode="gb">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.admin.pricelist"><![CDATA[Price list]]></item>
+		<item name="wcf.acp.group.option.category.user.pricelist"><![CDATA[Price list]]></item>
+		<item name="wcf.acp.group.option.admin.pricelist.canManage"><![CDATA[Can manage Price list categories]]></item>
+		<item name="wcf.acp.group.option.user.pricelist.canEdit"><![CDATA[Can manage Price list]]></item>
+		<item name="wcf.acp.group.option.user.pricelist.canSee"><![CDATA[Can see Price list]]></item>
+	</category>
+	
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.pricelist"><![CDATA[Price list]]></item>
+		<item name="wcf.acp.menu.link.pricelist.category.add"><![CDATA[Add Category]]></item>
+		<item name="wcf.acp.menu.link.pricelist.category.list"><![CDATA[Categories]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.pricelist"><![CDATA[Price List]]></item>
+		<item name="wcf.acp.option.category.pricelist.currency"><![CDATA[Currency]]></item>
+		<item name="wcf.acp.option.category.pricelist.product"><![CDATA[Product]]></item>
+		<item name="wcf.acp.option.pricelist_available_currencies"><![CDATA[Supported Currencies]]></item>
+		<item name="wcf.acp.option.pricelist_available_currencies.description"><![CDATA[Enter one currency per line.]]></item>
+		<item name="wcf.acp.option.pricelist_excerpt_length"><![CDATA[Excerpt Length]]></item>
+	</category>
+	
+	<category name="wcf.pricelist">
+		<item name="wcf.pricelist.item.add"><![CDATA[Add Product]]></item>
+		<item name="wcf.pricelist.item.add.category.warning"><![CDATA[There is no active category.]]></item>
+		<item name="wcf.pricelist.item.add.currency.warning"><![CDATA[There is no currency available.]]></item>
+		<item name="wcf.pricelist.item.categoryID"><![CDATA[Category]]></item>
+		<item name="wcf.pricelist.item.categoryID.error.invalid"><![CDATA[Category is invalid.]]></item>
+		<item name="wcf.pricelist.item.classification"><![CDATA[Assignment]]></item>
+		<item name="wcf.pricelist.item.cost"><![CDATA[Costs]]></item>
+		<item name="wcf.pricelist.item.currency"><![CDATA[Curreny]]></item>
+		<item name="wcf.pricelist.item.currency.error.invalid"><![CDATA[Curreny is invalid.]]></item>
+		<item name="wcf.pricelist.item.delete.sure"><![CDATA[Do you really want to delete the product?]]></item>
+		<item name="wcf.pricelist.item.description"><![CDATA[Description]]></item>
+		<item name="wcf.pricelist.item.description.error.empty"><![CDATA[Description is required.]]></item>
+		<item name="wcf.pricelist.item.description.error.tooLong"><![CDATA[Description is too long. It may have 60.000 characters.]]></item>
+		<item name="wcf.pricelist.item.edit"><![CDATA[Edit Product]]></item>
+		<item name="wcf.pricelist.item.general"><![CDATA[General]]></item>
+		<item name="wcf.pricelist.item.id"><![CDATA[ID]]></item>
+		<item name="wcf.pricelist.item.itemID"><![CDATA[Product number]]></item>
+		<item name="wcf.pricelist.item.itemID.error.empty"><![CDATA[Product number is required.]]></item>
+		<item name="wcf.pricelist.item.itemID.error.exists"><![CDATA[Product number already exists.]]></item>
+		<item name="wcf.pricelist.item.price"><![CDATA[Price]]></item>
+		<item name="wcf.pricelist.item.price.error.invalid"><![CDATA[Price is invalid.]]></item>
+		<item name="wcf.pricelist.item.title"><![CDATA[Product]]></item>
+		<item name="wcf.pricelist.item.title.error.empty"><![CDATA[Product is required.]]></item>
+		
+		<item name="wcf.pricelist.category.none"><![CDATA[No category]]></item>
+		<item name="wcf.pricelist.copyright"><![CDATA[<a href="https://www.grischamedia.ch"{if EXTERNAL_LINK_TARGET_BLANK} target="_blank"{/if}>Price List: <strong>GrischaMedia Price List</strong>, developed by <strong>GrischaMedia.ch</strong></a>]]></item>
+		<item name="wcf.pricelist.labels"><![CDATA[Labels]]></item>
+		<item name="wcf.pricelist.list"><![CDATA[Products]]></item>
+		<item name="wcf.pricelist.search"><![CDATA[Search]]></item>
+		<item name="wcf.pricelist.search.string"><![CDATA[Search string]]></item>
+		<item name="wcf.pricelist.show"><![CDATA[Show all]]></item>
+	</category>
+</language>

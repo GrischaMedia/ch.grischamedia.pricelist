@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/tornado/page.xsd">
+	<import>
+		<page identifier="ch.grischamedia.pricelist.PricelistPage">
+			<pageType>system</pageType>
+			<handler>wcf\system\page\handler\PricelistPageHandler</handler>
+			<controller>wcf\page\PricelistPage</controller>
+			<name language="de">Preisliste</name>
+			<name language="en">Price List</name>
+			<permissions>user.pricelist.canEdit,user.pricelist.canSee</permissions>
+			
+			<content language="en">
+				<title>Price List</title>
+			</content>
+			<content language="de">
+				<title>Preisliste</title>
+			</content>
+		</page>
+	</import>
+</data>

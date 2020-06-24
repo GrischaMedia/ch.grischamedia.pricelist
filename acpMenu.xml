@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/tornado/acpMenu.xsd">
+	<import>
+		<acpmenuitem name="wcf.acp.menu.link.pricelist">
+			<parent>wcf.acp.menu.link.application</parent>
+		</acpmenuitem>
+		
+		<acpmenuitem name="wcf.acp.menu.link.pricelist.category.list">
+			<controller>wcf\acp\page\PricelistCategoryListPage</controller>
+			<parent>wcf.acp.menu.link.pricelist</parent>
+			<permissions>admin.pricelist.canManage</permissions>
+		</acpmenuitem>
+		
+		<acpmenuitem name="wcf.acp.menu.link.pricelist.category.add">
+			<controller>wcf\acp\form\PricelistCategoryAddForm</controller>
+			<parent>wcf.acp.menu.link.pricelist.category.list</parent>
+			<permissions>admin.pricelist.canManage</permissions>
+			<icon>fa-plus</icon>
+		</acpmenuitem>
+	</import>
+</data>

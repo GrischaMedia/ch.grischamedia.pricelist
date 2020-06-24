@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/tornado/objectType.xsd">
+	<import>
+		<!-- Category -->
+		<type>
+			<name>ch.grischamedia.pricelist.category</name>
+			<definitionname>com.woltlab.wcf.category</definitionname>
+			<classname>wcf\system\category\PricelistCategoryType</classname>
+			<defaultpermission>1</defaultpermission>
+		</type>
+		
+		<!-- Label -->
+		<type>
+			<name>ch.grischamedia.pricelist.label</name>
+			<definitionname>com.woltlab.wcf.label.object</definitionname>
+			<classname>wcf\system\label\object\PricelistLabelObjectHandler</classname>
+		</type>
+		
+		<!-- message -->
+		<type>
+			<name>ch.grischamedia.pricelist.message</name>
+			<definitionname>com.woltlab.wcf.message</definitionname>
+		</type>
+	</import>
+</data>
