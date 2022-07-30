@@ -5,9 +5,9 @@
 		<packagedescription>Allows management and display of a price list.</packagedescription>
 		<packagename language="de">GrischaMedia Preisliste</packagename>
 		<packagedescription language="de">Erlaubt die Verwaltung und Darstellung einer Preisliste.</packagedescription>
-		<version>5.3.0</version>
-		<date>2021-02-11</date>
-		<license><![CDATA[GrischaMedia.ch Commercial Licence]]></license>
+		<version>5.5.0</version>
+		<date>2022-07-31</date>
+		<license><![CDATA[GrischaMedia Commercial Licence <https://grischamedia.ch>]]></license>
 	</packageinformation>
 	
 	<authorinformation>
@@ -16,15 +16,11 @@
 	</authorinformation>
 	
 	<requiredpackages>
-		<requiredpackage minversion="3.1.0">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="5.2.0">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
 	
-	<compatibility>
-		<api version="2018" />
-	</compatibility>
-	
 	<excludedpackages>
-		<excludedpackage version="6.0.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+		<excludedpackage version="5.6.0 Alpha 1">com.woltlab.wcf</excludedpackage>
 	</excludedpackages>
 	
 	<instructions type="install">
@@ -46,6 +42,10 @@
 	</instructions>
 	
 	<instructions type="update" fromversion="5.2.0">
+		<instruction type="language">language/*.xml</instruction>
+	</instructions>
+
+	<instructions type="update" fromversion="5.3.0">
 		<instruction type="language">language/*.xml</instruction>
 	</instructions>
 </package>
