@@ -34,6 +34,6 @@ Unter  Benutzer  -  Benutzergruppen  -  Benutzergruppe bearbeiten  -  Administra
     
     
 
-GrischaMedia.ch Shop:  [GrischaMedia Preisliste](https://grischamedia.ch/shop/product/46-preisliste/).
-Woltlab Pluginstore: N/A
-**Dieses Produkt besitzt ein Branding, das Branding Free Paket kann im Shop von GrischaMedia.ch erworben werden!**
+- GrischaMedia.ch Shop:  [GrischaMedia Preisliste](https://grischamedia.ch/shop/product/46-preisliste/).
+- Woltlab Pluginstore: N/A
+- **Dieses Produkt besitzt ein Branding, das Branding Free Paket kann im Shop von GrischaMedia.ch erworben werden!**
